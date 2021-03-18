@@ -1,0 +1,239 @@
+{
+  "modelId": 1,
+  "bounds": {
+    "lowerRight": {
+      "x": 1345,
+      "y": 1050
+    },
+    "upperLeft": {
+      "x": 0,
+      "y": 0
+    }
+  },
+  "properties": {
+    "process_id": "MyProcess",
+    "name": "My Process",
+    "process_author": "",
+    "process_version": "",
+    "process_namespace": "",
+    "process_historylevel": "",
+    "isexecutable": true,
+    "dataproperties": "",
+    "process_potentialstarteruser": "",
+    "process_potentialstartergroup": "",
+    "executionlisteners": "",
+    "eventlisteners": "",
+    "signaldefinitions": "",
+    "messagedefinitions": "",
+    "escalationdefinitions": "",
+    "documentation": "My Process"
+  },
+  "childShapes": [
+    {
+      "resourceId": "startEvent1",
+      "properties": {
+        "overrideid": "",
+        "name": "",
+        "executionlisteners": "",
+        "initiator": "",
+        "formkeydefinition": "",
+        "formfieldvalidation": true,
+        "formproperties": ""
+      },
+      "stencil": {
+        "id": "StartNoneEvent"
+      },
+      "childShapes": [],
+      "outgoing": [
+        {
+          "resourceId": "sid-DAC04B0A-FC6E-444C-8A49-D0D82C23F759"
+        }
+      ],
+      "bounds": {
+        "lowerRight": {
+          "x": 130,
+          "y": 193
+        },
+        "upperLeft": {
+          "x": 100,
+          "y": 163
+        }
+      },
+      "dockers": []
+    },
+    {
+      "resourceId": "sid-D504D7B1-0459-43E2-B5BB-996C48B23182",
+      "properties": {
+        "overrideid": "",
+        "name": "",
+        "asynchronousdefinition": "false",
+        "exclusivedefinition": "false",
+        "isforcompensation": "false",
+        "usertasknature": "",
+        "usertaskassignment": "",
+        "formkeydefinition": "",
+        "formfieldvalidation": true,
+        "duedatedefinition": "",
+        "prioritydefinition": "",
+        "formproperties": "",
+        "skipexpression": "",
+        "executionlisteners": "",
+        "tasklisteners": "",
+        "completioncondition": "",
+        "tasktype": "default",
+        "outcomevariable": "",
+        "possibleoutcomes": "",
+        "formreference": "",
+        "categorydefinition": "",
+        "multiinstance_type": "None",
+        "multiinstance_cardinality": "",
+        "multiinstance_collection": "",
+        "multiinstance_variable": "",
+        "multiinstance_condition": ""
+      },
+      "stencil": {
+        "id": "UserTask"
+      },
+      "childShapes": [],
+      "outgoing": [
+        {
+          "resourceId": "sid-A1CD514E-FAE4-409D-94A1-EE7F02DE9C3C"
+        }
+      ],
+      "bounds": {
+        "lowerRight": {
+          "x": 335.0113644380707,
+          "y": 218
+        },
+        "upperLeft": {
+          "x": 235.0113644380707,
+          "y": 138
+        }
+      },
+      "dockers": []
+    },
+    {
+      "resourceId": "sid-DAC04B0A-FC6E-444C-8A49-D0D82C23F759",
+      "properties": {
+        "overrideid": "",
+        "name": "",
+        "conditionsequenceflow": "",
+        "executionlisteners": "",
+        "defaultflow": "false",
+        "skipexpression": ""
+      },
+      "stencil": {
+        "id": "SequenceFlow"
+      },
+      "childShapes": [],
+      "outgoing": [
+        {
+          "resourceId": "sid-D504D7B1-0459-43E2-B5BB-996C48B23182"
+        }
+      ],
+      "bounds": {
+        "lowerRight": {
+          "x": 234.86745440519093,
+          "y": 178
+        },
+        "upperLeft": {
+          "x": 130.61035163139672,
+          "y": 178
+        }
+      },
+      "dockers": [
+        {
+          "x": 15,
+          "y": 15
+        },
+        {
+          "x": 50,
+          "y": 40
+        }
+      ],
+      "target": {
+        "resourceId": "sid-D504D7B1-0459-43E2-B5BB-996C48B23182"
+      }
+    },
+    {
+      "resourceId": "sid-F18EDC87-6A70-4FA5-9573-497323ECACA9",
+      "properties": {
+        "overrideid": "",
+        "name": "",
+        "executionlisteners": "",
+        "asynchronousdefinition": "false"
+      },
+      "stencil": {
+        "id": "ThrowNoneEvent"
+      },
+      "childShapes": [],
+      "outgoing": [],
+      "bounds": {
+        "lowerRight": {
+          "x": 528.0113644380707,
+          "y": 193
+        },
+        "upperLeft": {
+          "x": 498.0113644380707,
+          "y": 163
+        }
+      },
+      "dockers": [
+        {
+          "x": 513.0113644380707,
+          "y": 178
+        }
+      ]
+    },
+    {
+      "resourceId": "sid-A1CD514E-FAE4-409D-94A1-EE7F02DE9C3C",
+      "properties": {
+        "overrideid": "",
+        "name": "",
+        "conditionsequenceflow": "",
+        "executionlisteners": "",
+        "defaultflow": "false",
+        "skipexpression": ""
+      },
+      "stencil": {
+        "id": "SequenceFlow"
+      },
+      "childShapes": [],
+      "outgoing": [
+        {
+          "resourceId": "sid-F18EDC87-6A70-4FA5-9573-497323ECACA9"
+        }
+      ],
+      "bounds": {
+        "lowerRight": {
+          "x": 497.7613644380707,
+          "y": 178
+        },
+        "upperLeft": {
+          "x": 335.8863644380707,
+          "y": 178
+        }
+      },
+      "dockers": [
+        {
+          "x": 50,
+          "y": 40
+        },
+        {
+          "x": 15,
+          "y": 15
+        }
+      ],
+      "target": {
+        "resourceId": "sid-F18EDC87-6A70-4FA5-9573-497323ECACA9"
+      }
+    }
+  ],
+  "stencil": {
+    "id": "BPMNDiagram"
+  },
+  "stencilset": {
+    "namespace": "http://b3mn.org/stencilset/bpmn2.0#",
+    "url": "../editor/stencilsets/bpmn2.0/bpmn2.0.json"
+  }
+}
