@@ -1,0 +1,17 @@
+{
+  "eClass" : "http://com/opentext/ot2/lc/cmstype#//CMSTypeDefinition",
+  "properties" : [ {
+    "eClass" : "http://com/opentext/ot2/lc/cmstype#//CMSAttribute",
+    "name" : "name",
+    "displayName" : "Name",
+    "typeName" : "Text"
+  }, {
+    "eClass" : "http://com/opentext/ot2/lc/cmstype#//CMSAttribute",
+    "name" : "age",
+    "displayName" : "Age",
+    "typeName" : "Number"
+  } ],
+  "name" : "one",
+  "id" : "e39cf74b-45db-4d94-b311-fc722b4bc310",
+  "displayName" : "One"
+}
