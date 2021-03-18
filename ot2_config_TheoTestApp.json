@@ -1,0 +1,26 @@
+{
+	"tokenId": "Ctw26OQAAPAwUUFYACWtCkfcaaMgHIAN",
+	"secret": "vrSHi9RA8zJmHB5q",
+	"sub": "DevX-v2promotionqa1-3c5c6227-c918-442d-9bf8-bce10c83498f",
+	"tenantId": "a206b7a3-9b93-4856-b8e6-352df7147047",
+	"allowedScopes": [
+		"create_publications",
+		"view_publications",
+		"search_publications",
+		"delete_publications",
+		"readwrite",
+		"otds:roles",
+		"otds:groups",
+		"search"
+	],
+	"defaultScopes": [
+		"create_publications",
+		"view_publications",
+		"search_publications",
+		"delete_publications",
+		"readwrite",
+		"otds:roles",
+		"otds:groups",
+		"search"
+	]
+}
