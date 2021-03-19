@@ -9,9 +9,9 @@
     "eClass" : "http://com/opentext/ot2/lc/cmstype#//CMSAttribute",
     "name" : "age",
     "displayName" : "Age",
-    "typeName" : "Number"
+    "typeName" : "Text"
   } ],
-  "name" : "one",
-  "id" : "e39cf74b-45db-4d94-b311-fc722b4bc310",
-  "displayName" : "One"
+  "name" : "mon",
+  "id" : "54cb2906-3b75-42f1-aeef-5501beea0946",
+  "displayName" : "Mon"
 }

@@ -1,0 +1,21 @@
+{
+  "eClass" : "http://com/opentext/ot2/lc/cmstype#//CMSTypeDefinition",
+  "properties" : [ {
+    "eClass" : "http://com/opentext/ot2/lc/cmstype#//CMSAttribute",
+    "name" : "name",
+    "displayName" : "Name",
+    "typeName" : "Text"
+  }, {
+    "eClass" : "http://com/opentext/ot2/lc/cmstype#//CMSAttribute",
+    "name" : "age",
+    "displayName" : "Age",
+    "typeName" : "Text"
+  } ],
+  "name" : "tue",
+  "id" : "42be1f9f-a10e-48aa-b6bf-12f9428f8e81",
+  "cmsParent" : {
+    "ref" : "uuid:54cb2906-3b75-42f1-aeef-5501beea0946",
+    "#" : "mon.cmstype"
+  },
+  "displayName" : "Tue"
+}
